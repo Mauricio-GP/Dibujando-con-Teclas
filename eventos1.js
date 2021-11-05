@@ -14,9 +14,6 @@ var x = 150;
 var y = 150;
 
 
-dibujarLinea(colorcito, 1,1,1,299);
-dibujarLinea(colorcito, 1,299,299,299);
-
 dibujarLinea("red", 149, 149, 151, 151, papel);
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
@@ -57,4 +54,4 @@ function dibujarTeclado(evento)
         break;
     }
 }
-console.log("prueba");
+console.log(MouseEvent);
